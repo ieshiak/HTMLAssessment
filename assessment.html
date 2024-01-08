@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Assessment</title>
+</head>
+<body>
+	<h2>TEXT</h2>
+	<p>
+		<b>Lorem</b> ipsum dolor sit amet, consectetur adipiscing elit.
+		Praesent molestie quis tellus eu posuere. Ut eu porta risus, in ornare
+		ex. Mauris laoreet consequat rhoncus. Nulla eget nisl elit. Duis
+		aliquam elit non aliquet eleifend. Sed erat mauris, viverra sit amet
+		leo et, commodo imperdiet nulla. Integer ac ultricies velit. Phasellus
+		eu nunc est. In facilisis libero finibus quam dignissim, id posuere
+		nisl hendrerit. Vestibulum blandit sollicitudin posuere. Quisque
+		laoreet tristique massa et tristique. Nulla ac sem rutrum, venenatis
+		nisi nec, egestas justo. Duis in porttitor lacus. Ut in est luctus,
+		tempor tellus vel, finibus dolor.!
+	</p>
+	<blockquote>
+		<em>
+			<p>
+				<b>Donec</b> eu accumsan quam. Donec lacinia pellentesque diam, eu
+				viverra mauris dictum a. Ut at ligula vehicula, venenatis ex id,
+				blandit dui. Aliquam a nibh eu mauris tempor tempor a sit amet
+				massa. Maecenas bibendum urna sed mauris tincidunt faucibus. Integer
+				non mauris elementum, consequat nisl non, faucibus justo. Fusce ac
+				gravida sem. Duis justo velit, placerat elementum felis non, feugiat
+				pellentesque leo. Etiam facilisis nec mauris sagittis sollicitudin.
+				Curabitur quis blandit velit, eu dapibus nisi. Quisque aliquam
+				lobortis gravida. Curabitur a efficitur diam, nec pharetra velit. In
+				pharetra enim non ipsum viverra, semper cursus urna vulputate. Cras
+				faucibus bibendum erat sit amet pulvinar. Aliquam scelerisque eget
+				velit non vestibulum. Vivamus sed nisl ac ante dapibus consectetur.
+			</p>
+		</em>
+	</blockquote>
+	<p>
+		<b>Morbi</b> et bibendum augue. Aliquam fringilla, ex at rhoncus
+		consequat, mauris sem rhoncus mi, ac commodo turpis ex at lacus.
+		Vestibulum in scelerisque libero. Donec eu dui nunc. Nulla facilisi.
+		Fusce interdum vulputate enim, ac convallis augue tristique sed. Etiam
+		dapibus congue quam quis fringilla. Pellentesque gravida placerat
+		tempus. Aliquam vitae libero non quam pretium ornare eu ut est.
+		Suspendisse quis finibus sem, eu dapibus massa. Sed nec auctor libero,
+		at tempus augue. Proin bibendum tempor metus, eu tincidunt ipsum
+		sollicitudin nec. Morbi rutrum elit vitae libero rutrum, sed tempor
+		augue imperdiet. Donec in quam eget urna congue eleifend quis quis
+		urna.
+	</p>
+<body>
+
+	<h2>TABLE</h2>
+	<table style="width: 100%">
+	<caption>Scores by Quarter</caption>
+		<style>
+table, tr, th, td {
+	border: 1px solid black;
+}
+</style>
+
+		<tr>
+			<th rowspan="2">Team Name</th>
+			<th colspan="2">First Half</th>
+			<th colspan="2">Second Half</th>
+			<th rowspan="2">FINAL</th>
+		</tr>
+		<tr>
+			<th>Q1</th>
+			<th>Q2</th>
+			<th>Q3</th>
+			<th>Q4</th>
+			</th>
+		</tr>
+		<tr>
+			<td>Dallas Cowboys</td>
+			<td ALIGN=RIGHT>7</td>
+			<td ALIGN=RIGHT>14</td>
+			<td ALIGN=RIGHT>14</td>
+			<td ALIGN=RIGHT>3</td>
+			<td ALIGN=RIGHT>38</td>
+			
+		</tr>
+		<tr>
+			<td>Washington Commanders</td>
+			<td ALIGN=RIGHT>0</td>
+			<td ALIGN=RIGHT>10</td>
+			<td ALIGN=RIGHT>0</td>
+			<td ALIGN=RIGHT>0</td>
+			<td ALIGN=RIGHT>10</td>
+		</tr>
+		<tfoot style="text-align:center">
+    <tr>
+    <th colspan="6">COWBOYS WIN!</th>
+    
+    
+    </tr>
+  </tfoot>
+	</table>
+
+	<h2>LIST</h2>
+
+	<ul ul style="list-style: none;" type="a">
+		<div id="media">
+			<a href="https://www.dallascowboys.com/" target="_blank"><img
+				src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DAL" height="100" width="100" /></a>
+			<li><a href="https://www.dallascowboys.com/">Dallas Cowboys</a>
+				<ul>
+					<li>QB</li>
+					<ol>
+						<li>Dak Prescott</li>
+						<li>Trey Lance</li>
+						<li>Cooper Rush</li>
+					</ol>
+				</ul>
+	</ul>
+	<ul ul style="list-style: none;" type="a">
+	<div id="media">
+			<a href="https://www.commanders.com/" target="_blank"><img
+				src="https://static.www.nfl.com/t_q-best/league/api/clubs/logos/WAS" height="100" width="100" /></a>
+		<li><a href="https://www.commanders.com/">Washington
+				Commanders</a>
+			<ul>
+				<li>QB</li>
+				<ol>
+					<li>Sam Howell</li>
+					<li>Jacob Brissett</li>
+				</ol>
+			</ul>
+			<h2>FORM</h2>
+			<form action="/action_page.php">
+				<div>
+					<div style="float: left;">
+						<label for="fname">First:</label> <input type="text" id="fname"
+							name="fname">
+					</div>
+
+					<div>
+						<label for="lname">Last:</label> <input type="text" id="lname"
+							name="lname"><br> <br>
+					</div>
+					<br>
+					<div>
+						<label for="teams">Choose a Football Team:</label> <br> <select
+							name="teams" id="teams">
+							<option value="ravens">Baltimore Ravens</option>
+							<option value="49ers">San Francisco 49ers</option>
+							<option value="browns">Cleveland Browns</option>
+							<option value="bills">Buffalo Bills</option>
+							<option value="dolphins">Miami Dolphins</option>
+							<option value="cowboys">Dallas Cowboys</option>
+							<option value="lions">Detroit Lions</option>
+							<option value="rams">Los Angeles Rams</option>
+							<br>
+							<br>
+						</select>
+					</div>
+					<br>
+					<div>
+						<label for="teams">I have:</label> <br>
+						<form action="/action_page.php">
+
+							<input type="checkbox"> <label for="attended">
+								Attended </label> <input type="checkbox"> <label for="attended">
+								Played </label> <input type="checkbox"> <label for="attended">
+								Coached </label> <input type="checkbox"> <label for="attended">
+								Bet on </label>
+					</div>
+					<br>
+
+					<div>
+						<label for="preference">I prefer:</label> <br> <input
+							type="radio" name="radAnswer"> <label for="amateur">
+							Amateur </label> <input type="radio" name="radAnswer"> <label
+							for="college"> College </label> <input type="radio"
+							name="radAnswer"> <label for="professional">
+							Professional </label>
+
+					</div>
+					<br> <input type="submit" value="Submit Form">
+			</form>
+
+
+			</form>
+</body>
+</html>
