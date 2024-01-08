@@ -1,0 +1,75 @@
+body {
+  background-color: lightblue;
+}
+
+h2 {
+  color: blueviolet;
+  font-family: Arial, sans-serif;
+  margin-left: 20px;
+}
+
+h3 {
+  color: blueviolet;
+  font-family: Arial, sans-serif;
+
+  margin-left: 20px;
+}
+
+h4 {
+  color: blueviolet;
+  font-family: Arial, sans-serif;
+  margin-left: 20px;
+}
+
+h5 {
+  color: blueviolet;
+  font-family: Arial, sans-serif;
+  margin-left: 20px;
+}
+
+table, tr, th, td {
+  text-align: center;
+  border: 1px solid;
+}
+
+tr{
+  color: green; 
+}
+
+th{
+  color: hotpink; 
+  font-weight: bold;
+}
+
+ul{
+  list-style-type:square;
+}
+
+a:hover {
+  color: darkred;
+  text-decoration: none; 
+}
+
+
+blockquote {
+    background-color: black;
+     color: white;
+
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul, li
+{
+  background: 
+  url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg"), 
+  url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg")center bottom no-repeat;
+
+  
+}
+}
+
